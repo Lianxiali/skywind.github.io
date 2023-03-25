@@ -1,4 +1,15 @@
-	name: Lianxia Li
-	markdown: kramdown
+name: Lianxia Li
+markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
+
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
